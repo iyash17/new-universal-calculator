@@ -1,0 +1,18 @@
+# Node/Vite/React
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+.vscode/
+.git/
+package-lock.json
+# Node/Vite/React
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+.vscode/
+.git/
+package-lock.json
