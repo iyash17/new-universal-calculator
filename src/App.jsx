@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Header from './Header'
 import HomePage from './HomePage'
 import CategoryPage from './CategoryPage'
-// import CalculatorPage from './CalculatorPage' // This file does not exist, needs to be created or removed
+import CalculatorPage from './CalculatorPage'
 import SearchResults from './SearchResults'
 import Footer from './Footer'
 import './App.css'
@@ -11,8 +11,7 @@ import './App.css'
 function App() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  return (
-    <Router>
+    return (
       <div className="min-h-screen bg-background">
         <Header searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
         <main className="container mx-auto px-4 py-8">
@@ -28,7 +27,6 @@ function App() {
         </main>
         <Footer />
       </div>
-    </Router>
   )
 }
 
